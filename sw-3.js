@@ -1,5 +1,5 @@
-const CACHE = 'basij-letter-v2';
-const SHELL = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
+const CACHE = 'basij-letter-v3';
+const SHELL = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './IranNastaliq.ttf'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c =>
